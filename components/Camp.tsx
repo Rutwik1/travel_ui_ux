@@ -5,8 +5,8 @@ interface CampProps {
   backgroundImage: string;
   title: string;
   subtitle: string;
-  peopleJoined: string;   
-}
+  peopleJoined: string;
+}  
 
 const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps) => {
   return (
